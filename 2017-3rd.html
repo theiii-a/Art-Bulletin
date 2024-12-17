@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>GalleryTemplate</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Boto Photo Studio HTML Template">
+    <meta name="keywords" content="photo, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/slicknav.min.css"/>
+    <link rel="stylesheet" href="css/fresco.css"/>
+
+    <!-- Main Stylesheets -->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+<style>
+body {
+    background-color: #203354;
+    color: white;
+}
+.gallery__item img {
+  width: 100%;
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Ensures images cover the area while maintaining aspect ratio */
+}
+</style>
+    <!--For go back button-->
+    <style>
+        .go-back-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            padding: 10px 20px;
+            background-color: #ea9423;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1000; /* Ensure the button is on top of other elements */
+        }
+        
+        .go-back-button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <button id="goBackButton" class="go-back-button">Go Back</button>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+   <!-- About Page -->
+   <div class="gallery__page">
+    <div class="gallery__warp">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e1.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e1.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e2.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e2.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e3.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e3.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallerye4.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e4.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e5.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e5.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e6.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e6.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e7.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e7.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e8.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e8.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e9.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e9.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e10.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e10.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e11.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e11.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e12.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e12.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e13.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e13.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e14.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e14.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <a class="gallery__item fresco" href="img/gallery/e15.jpg" data-fresco-group="gallery">
+                    <img src="img/gallery/e15.jpg" alt="">
+                </a>
+        </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <a class="gallery__item fresco" href="img/gallery/e16.jpg" data-fresco-group="gallery">
+            <img src="img/gallery/e16.jpg" alt="">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <a class="gallery__item fresco" href="img/gallery/e17.jpg" data-fresco-group="gallery">
+            <img src="img/gallery/e17.jpg" alt="">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <a class="gallery__item fresco" href="img/gallery/e18.jpg" data-fresco-group="gallery">
+            <img src="img/gallery/e18.jpg" alt="">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <a class="gallery__item fresco" href="img/gallery/e19.jpg" data-fresco-group="gallery">
+            <img src="img/gallery/e19.jpg" alt="">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <a class="gallery__item fresco" href="img/gallery/e20.jpg" data-fresco-group="gallery">
+            <img src="img/gallery/e20.jpg" alt="">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <a class="gallery__item fresco" href="img/gallery/e21.jpg" data-fresco-group="gallery">
+            <img src="img/gallery/e21.jpg" alt="">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <a class="gallery__item fresco" href="img/gallery/e22.jpg" data-fresco-group="gallery">
+            <img src="img/gallery/e22.jpg" alt="">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <a class="gallery__item fresco" href="img/gallery/e23.jpg" data-fresco-group="gallery">
+            <img src="img/gallery/e23.jpg" alt="">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <a class="gallery__item fresco" href="img/gallery/e24.jpg" data-fresco-group="gallery">
+            <img src="img/gallery/e24.jpg" alt="">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <a class="gallery__item fresco" href="img/gallery/e25.jpg" data-fresco-group="gallery">
+            <img src="img/gallery/e25.jpg" alt="">
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <a class="gallery__item fresco" href="img/gallery/e26.jpg" data-fresco-group="gallery">
+            <img src="img/gallery/e26.jpg" alt="">
+        </a>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6">
+    <a class="gallery__item fresco" href="img/gallery/e27.jpg" data-fresco-group="gallery">
+        <img src="img/gallery/e27.jpg" alt="">
+    </a>
+</div>
+    </div>
+</div>
+
+    <!-- Footer Section -->
+    <footer class="footer__section">
+        <div class="container">
+            <div class="footer__copyright__text">
+                <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | BSEMC-DAT </a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section end -->
+
+    <!--====== Javascripts & Jquery ======-->
+    <script src="js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/fresco.min.js"></script>
+    <script src="js/main.js"></script>
+
+     <!--Script for history button-->
+     <script>
+        document.getElementById('goBackButton').addEventListener('click', function() {
+                window.history.back();
+                });
+        </script>
+</body>
+</html>
