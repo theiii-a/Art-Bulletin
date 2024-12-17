@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>GalleryTemplate</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Boto Photo Studio HTML Template">
+    <meta name="keywords" content="photo, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/slicknav.min.css"/>
+    <link rel="stylesheet" href="css/fresco.css"/>
+    <!-- Main Stylesheets -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        body {
+            background-color: #203354;
+            color: white;
+        }
+        h4 {
+            color: white;
+        }
+        .gallery__item img {
+            width: 100%;
+            height: 200px; /* Set your desired height */
+            object-fit: cover; /* This will crop the image to fit */
+        }
+    </style>
+        <!--For go back button-->
+        <style>
+            .go-back-button {
+                position: fixed;
+                top: 10px;
+                left: 10px;
+                padding: 10px 20px;
+                background-color: #ea9423;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                z-index: 1000; /* Ensure the button is on top of other elements */
+            }
+            
+            .go-back-button:hover {
+                background-color: #e64a19;
+            }
+        </style>
+</head>
+<body>
+    <button id="goBackButton" class="go-back-button">Go Back</button>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!-- About Page -->
+    <div class="gallery__page">
+             <h4>January | Drawing Activity</h4>
+             <div class="space" style="height: 40px;"> </div>
+                    <div class="gallery__warp">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/1.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/1.jpg" alt="Ladawan2019_Cover">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/2.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/2.jpg" alt="Ladawan2019_1">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/3.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/3.jpg" alt="Ladawan2019_2">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/4.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/4.jpg" alt="Ladawan2019_3">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/5.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/5.jpg" alt="Ladawan2019_4">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/6.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/6.jpg" alt="Ladawan2019_5">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/7.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/7.jpg" alt="Ladawan2019_6">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/8.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/8.jpg" alt="Ladawan2019_7">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/9.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/9.jpg" alt="Ladawan2019_8">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/10.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/10.jpg" alt="Ladawan2019_9">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/11.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/11.jpg" alt="Ladawan2019_10">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/12.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/12.jpg" alt="Ladawan2019_11">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/13.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/13.jpg" alt="Ladawan2019_12">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/14.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/14.jpg" alt="Ladawan2019_13">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/15.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/15.jpg" alt="Ladawan2019_14">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/16.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/16.jpg" alt="Ladawan2019_15">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/17.jpg" data-fresco-group="gallery">
+                                    <img src="img/January 8 _ 2015M.A.C.E 1st activity_ basic drawing/17.jpg" alt="Ladawan2019_16">
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                         <div class="space" style="height: 50px;"> </div>
+                         <h4>March |  PE Day</h4>
+                         <div class="space" style="height: 40px;"> </div>
+                    <div class="gallery__warp">
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/1.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/1.jpg" alt="Orientation_1">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/2.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/2.jpg" alt="Orientation_2">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/3.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/3.jpg" alt="Orientation_3">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/4.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/4.jpg" alt="Orientation_4">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/5.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/5.jpg" alt="Orientation_5">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/6.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/6.jpg" alt="Orientation_6">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/7.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/7.jpg" alt="Orientation_7">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/8.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/8.jpg" alt="Orientation_8">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/9.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/9.jpg" alt="Orientation_9">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/10.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/10.jpg" alt="Orientation_10">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/11.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/11.jpg" alt="Orientation_11">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/12.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/12.jpg" alt="Orientation_12">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/13.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/13.jpg" alt="Orientation_13">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/14.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/14.jpg" alt="Orientation_14">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/15.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/15.jpg" alt="Orientation_15">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/16.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/16.jpg" alt="Orientation_16">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/17.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/17.jpg" alt="Orientation_17">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/18.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/18.jpg" alt="Orientation_18">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/19.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/19.jpg" alt="Orientation_19">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <a class="gallery__item fresco" href="img/March 13 _ 2015P.E Day/20.jpg" data-fresco-group="gallery">
+                                    <img src="img/March 13 _ 2015P.E Day/20.jpg" alt="Orientation_20">
+                                </a>
+                            </div>                            
+
+                        </div>
+                    </div>
+                    
+                <div class="space" style="height: 40px;"> </div>
+    <!-- About Page end -->
+    <!-- Footer Section -->
+    <footer class="footer__section">
+        <div class="container">
+            <div class="footer__copyright__text">
+                <p>
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | BSEMC-DAT
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section end -->
+    <!--====== Javascripts & Jquery ======-->
+    <script src="js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/fresco.min.js"></script>
+    <script src="js/main.js"></script>
+
+     <!--Script for history button-->
+     <script>
+        document.getElementById('goBackButton').addEventListener('click', function() {
+                window.history.back();
+                });
+        </script>
+</body>
+</html>
